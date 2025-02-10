@@ -1,1 +1,1 @@
-# sanke-game
+# snake-game
