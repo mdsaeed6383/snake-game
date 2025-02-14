@@ -117,7 +117,7 @@ params['epsilon'] = 0.6  # exploration probability at start
 params['epsilon_min'] = .01  # minimum epsilon
 params['epsilon_decay'] = .995  # exponential decay rate for epsilon
 
-qtable_file = "qtable_2025.csv" #"qtable_true.csv" #None
+qtable_file = r"D:\1.Masters\depaul\courses\AI 2\Assignments\HW4\qtable_2025.csv" #"qtable_true.csv" #None
 
 # Call run_ql() for either training or evaluation
 results_list = run_ql(num_runs, num_steps, params, qtable_file, display = True, train = False) # evaluation
